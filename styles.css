@@ -1,0 +1,142 @@
+* {
+   font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+header {
+   margin: 47px 0px 178px 42px;
+}
+
+.link-header {
+   margin-right: 32px;
+   cursor: pointer;
+   color: #17233D;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+
+}
+
+.button-header {
+   width: 124px;
+   height: 51px;
+   border: 1px;
+   border-color: #4CB538;
+   color: #ffffff;
+   background: #6FBF44;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+section {
+   display: inline-block;
+   margin-left: 84px;
+}
+
+.logo-image {
+   width: 595px;
+   height: 500px;
+   margin-left: 121px;
+   display: inline-block;
+}
+
+
+
+h1 {
+   font-weight: 700;
+   font-size: 62px;
+   line-height: 82px;
+   color: #161A49;
+   width: 582px;
+}
+
+p {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 33px;
+   text-align: justify;
+   width: 493px;
+   color: #4B505A;
+   margin-bottom: 55px;
+   margin-top: 47px;
+}
+
+a {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   color: #6FBF44;
+   margin-top: 707px;
+   cursor: pointer;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+   .link-header {
+      display: none;
+   }
+
+   section {
+      width: 100%;
+      height: 70%;
+      display: block;
+   }
+
+   h1 {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+      width: 278px;
+      position: absolute;
+      top: 25%;
+      left: 14%;
+   }
+
+   p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 33px;
+      text-align: center;
+      width: 304px;
+      margin: 29px 43px 26px 43px;
+      position: absolute;
+        top: 33%;
+        left: 1%;
+   }
+
+   a {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 64%;
+      left: 39%;
+   }
+
+   .logo-image {
+      display: block;
+      margin: 0 auto;
+      width: 312px;
+      height: 288px;
+      position: absolute;
+      top: 77%;
+      left: 8%;
+   }
+
+   .button-header {
+      position: absolute;
+      top: 23px;
+      left: 230px;
+   }
+
+   main {
+      display: flex;
+      align-items: center;
+      height: 200px;
+   }
+
+}
